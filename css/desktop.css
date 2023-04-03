@@ -63,6 +63,7 @@
 			url(../images/hero-bg-desk.jpg);
 		height: 600px;
 		max-width: 1440px;
+		margin: 0 auto;
 	}
 
 	@media (min-device-pixel-ratio: 2),
