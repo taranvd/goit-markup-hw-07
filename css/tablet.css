@@ -147,6 +147,10 @@
 	/* Team */
 
 	/* Customers */
+	.page-customers {
+		max-width: 582px;
+	}
+
 	.customers-list {
 		column-gap: 24px;
 	}
