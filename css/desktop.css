@@ -52,7 +52,6 @@
 	/* hero */
 
 	.hero-wrap {
-		min-height: 600px;
 	}
 
 	.hero {
@@ -64,6 +63,8 @@
 		height: 600px;
 		max-width: 1440px;
 		margin: 0 auto;
+		padding-top: 188px;
+		padding-bottom: 188px;
 	}
 
 	@media (min-device-pixel-ratio: 2),

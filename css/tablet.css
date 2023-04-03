@@ -150,6 +150,11 @@
 	.customers-list {
 		column-gap: 24px;
 	}
+
+	.customers-item {
+		width: calc((100% - 48px) / 3);
+	}
+
 	/* Customers */
 
 	/* PAGE: "portfolio.html" STYLE START */
@@ -209,18 +214,15 @@
 		max-width: 264px;
 		margin-bottom: 0;
 	}
+
+	.page-footer {
+		max-width: 565px;
+	}
 	/* Footer */
 
 	.modal {
 		width: 408px;
 		min-height: 586px;
 		padding: 72px 24px 24px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-	.page-footer {
-		padding-left: 108px;
-		padding-right: 108px;
 	}
 }
