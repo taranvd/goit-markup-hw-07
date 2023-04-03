@@ -92,6 +92,11 @@
 
 		color: var(--slate-color);
 	}
+
+	.header-menu-contacts {
+		margin-bottom: 48px;
+	}
+
 	/* HEADER */
 
 	/* HERO */
@@ -140,6 +145,11 @@
 	/* Advantages */
 
 	/* Team */
+
+	.page-team {
+		max-width: 585px;
+	}
+
 	.team-card-list {
 		column-gap: 24px;
 		row-gap: 64px;
@@ -148,7 +158,7 @@
 
 	/* Customers */
 	.page-customers {
-		max-width: 582px;
+		max-width: 585px;
 	}
 
 	.customers-list {
@@ -183,6 +193,10 @@
 
 	/* Footer */
 
+	.page-footer {
+		max-width: 585px;
+	}
+
 	.footer-logo {
 		display: block;
 	}
@@ -191,14 +205,17 @@
 		display: flex;
 		align-items: baseline;
 		gap: 24px;
+		margin-bottom: 72px;
 	}
 
 	.footer-text {
 		display: block;
+		margin-bottom: 0;
 	}
 
 	.footer-social {
 		display: block;
+		margin-bottom: 0;
 	}
 
 	.footer-mail {
@@ -219,9 +236,6 @@
 		margin-bottom: 0;
 	}
 
-	.page-footer {
-		max-width: 565px;
-	}
 	/* Footer */
 
 	.modal {

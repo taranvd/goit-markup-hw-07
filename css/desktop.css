@@ -207,6 +207,7 @@
 	.footer-wrap {
 		align-items: baseline;
 		column-gap: 120px;
+		margin-bottom: 0;
 	}
 
 	.footer-desc {

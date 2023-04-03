@@ -134,9 +134,13 @@ img {
 
 /* HEADER MOBILE START*/
 .header-mobile {
-	padding: 24px 16px;
 	border-bottom: 1px solid #e7e9fc;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-mobile-container {
+	padding: 24px 16px;
+	margin: 0 auto;
 }
 
 .header-mobile-wrap {
@@ -144,13 +148,9 @@ img {
 	justify-content: space-between;
 }
 
-.header-menu {
-	margin-bottom: 284px;
+.header-nav-wrap {
 	display: flex;
 	flex-direction: column;
-}
-
-.header-nav-wrap {
 	position: fixed;
 	right: 0;
 	top: 0;
@@ -171,7 +171,6 @@ img {
 
 .header-link {
 	display: inline-block;
-	margin-bottom: 40px;
 
 	font-weight: 700;
 	font-size: 36px;
@@ -190,16 +189,22 @@ img {
 	margin-top: auto;
 }
 
-.header-menu-contacts {
+.header-contacts {
 	margin-bottom: 48px;
 }
 
-.header-tel-link {
-	display: inline-block;
+.header-menu-contact-item:first-child {
 	margin-bottom: 40px;
+}
+
+.header-menu-item:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.header-tel-link {
 	font-style: normal;
 	font-weight: 600;
-	font-size: 36px;
+	font-size: 25px;
 	line-height: 1.1;
 	text-transform: capitalize;
 
@@ -361,11 +366,6 @@ img {
 	justify-content: center;
 	column-gap: 24px;
 	row-gap: 72px;
-}
-
-.advantages-item {
-	margin-bottom: 72px;
-	width: 100%;
 }
 
 /* ADVANTAGES END  */
@@ -651,10 +651,10 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 72px;
 }
 
 .footer-desc {
-	margin-bottom: 72px;
 	font-size: 16px;
 	max-width: 268px;
 	line-height: 1.5;

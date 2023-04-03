@@ -1,0 +1,5 @@
+@media screen and (min-width: 420px) and (max-width: 767px) {
+	.header-tel-link {
+		font-size: 36px;
+	}
+}
